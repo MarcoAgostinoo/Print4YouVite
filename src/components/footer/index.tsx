@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./footer.module.css";
 
 function Footer() {
@@ -21,7 +22,7 @@ function Footer() {
               <a href="/produtos">Trabalhe Conosco</a>
             </li>
             <li>
-              <a href="/sobre-nos">Sobre Nós</a>
+              <Link to="/Sobre">Sobre</Link>
             </li>
             <li>
               <a href="/contato">Contato</a>

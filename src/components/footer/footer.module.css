@@ -62,7 +62,7 @@ a:hover {
   display: inline-block;
   padding: 8px;
   border-radius: 50%; /* Ícones circulares */
-  background-color: #fff; /* Fundo branco */
+  background-color: #f87d7d; /* Fundo branco */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   color: #333;
   transition: background-color 0.3s ease;

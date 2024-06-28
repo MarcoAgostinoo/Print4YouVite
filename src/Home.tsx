@@ -1,13 +1,23 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import Header from "./components/header";
+import Footer from "./components/footer";
+import Carrocel from "./components/carrocelum";
+import Maisvendidos from "./components/maisvendidos";
+import Prontaentrega from "./components/prontaentrega";
+import Categorias from "./components/categorias";
 
-function Teste() {
+function Home() {
   return (
-    <div>
-      <h1>Home</h1>
-      <Link to={"/Sobre"}>Sobre</Link>
-    </div>
+    <>
+      <main>
+        <Header />
+        <Categorias />
+        <Carrocel />
+        <Maisvendidos />
+        <Prontaentrega />
+        <Footer />
+      </main>
+    </>
   );
 }
 
-export default Teste;
+export default Home;

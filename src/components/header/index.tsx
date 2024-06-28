@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./header.module.css";
 
 function Header() {
@@ -20,7 +21,7 @@ function Header() {
         />
         <nav className={styles.navigation}>
           <a href="#">Home</a>
-          <a href="#">Sobre</a>
+          <Link to="/Sobre">Sobre</Link>
           <a href="#">Atendimento</a>
         </nav>
       </div>
